@@ -28,7 +28,7 @@ Enfin,  déploiement sur différentes cibles possibles :
 L'offre Cloud π Native, portée par le Ministère de l'Intérieur et des Outre-Mer est une offre PaaS basée sur [Cloud π](https://www.numerique.gouv.fr/services/cloud/cloud-interne/) sur les infrastructures du ministère de l'intérieur offrant des fonctionnalités DevSecOps à savoir :
 
   - [Gestionnaire de sources](produits/gitlab.md) applicatives
-  - Outil de gestion de la [qualité](produits/sonarqube.md) statique du code (SAST) et dynamique (DAST)
+  - Outil de gestion de la [qualité](produits/quality.md) statique du code (SAST) et dynamique (DAST)
   - Orchestrateur de [construction](produits/gitlab.md) d'artefacts (Intégration continue)
   - [Entrepot d'artefacts](produits/artefacts.md) et d'images Docker
   - Gestionnaire de [secrets](produits/vault.md) des chaines IC/DC
