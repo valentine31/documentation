@@ -4,15 +4,29 @@ Cette section regroupe les questions fréquentes de nos clients
 
 ## Construction
 
-### Comment simuler les services proposés par l'infrastructure du MI sur les environnements OVH (S3, Passage2, SMTP, etc.) ?
+### Comment simuler les services S3, SSO, SMTP, etc sur les environnements OVH ?
 
-Des bouchons sont proposés afin de simuler un serveur SMTP, création d'un bucket S3, passage2, etc.
+Des bouchons sont proposés afin de simuler un serveur SMTP, création d'un bucket S3, SSO, etc.
 
 La description de l'utilisation de ces bouchons est détaillée [ici](bouchons.md)
 
 
 ### Comment puis-je lancer la pipeline de synchronisation de mes repos depuis mes repos externes ?
 
+Pour synchroniser le code tu peux suivre la procédure suivante.
+Sur Gitlab:
+
+- Aller sur ton projet
+- Aller sur le dépôt mirror
+- Dans la barre latérale gauche Build > Pipelines
+- Cliquer en haut à droite de l'écran sur Run pipeline
+- Ajouter comme valeur pour la variable PROJECT_NAME le nom du dépôt (dans le Gitlab) que tu souhaites synchroniser
+- Ajouter la variable GIT_BRANCH_DEPLOY avec comme valeur la branche que tu souhaites synchroniser
+- Cliquer sur Run pipeline
+
+Sur argocd, dans App Details:
+- il faut que tu changes le cluster de destination pour app1-integ (Selectionnez name pour voir le nom du cluster plutôt que URL).
+- Vérifier la valeur de la la clé Path (path des manifests k8s).
 
 ### Comment puis-je déployer une image personnalisée ?
 
