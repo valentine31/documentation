@@ -75,7 +75,7 @@ Dans le cas d'un dépôt de code applicatif, générer les fichiers de *gitlab-c
 
 Cliquer enfin sur le bouton `Ajouter le dépôt`.
 
-Lorsqu'un dépôt est créé dans la console en tant que `dépôt d'infrastructure`, la plateforme créé automatiquement l'application [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) associée qui permettra le déploiement.
+Lorsqu'un dépôt est créé dans la console en tant que `dépôt d'infrastructure`, la plateforme crééra automatiquement l'application [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) associée qui permettra le déploiement lors de la creation d'environnement.
 
 
 Une fois que le dépôt est correctement ajouté, il apparait avec une icône indiquant son statut :

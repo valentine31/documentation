@@ -20,14 +20,6 @@
         "link": "/agreement/mocks"
       },
       {
-        "text": "Règles kyverno",
-        "link": "/agreement/kyverno"
-      },
-      {
-        "text": "Labels kubernetes",
-        "link": "/agreement/labels-list"
-      },
-      {
         "text": "Observabilité",
         "link": "/agreement/observability"
       },
@@ -110,6 +102,10 @@
         "link": "/guide/secrets-management"
       },
       {
+        "text": "Règles kyverno",
+        "link": "/agreement/kyverno"
+      },
+      {
         "text": "Bonnes pratiques",
         "link": "/guide/best-practices"
       },
@@ -120,6 +116,10 @@
       {
         "text": "Alerting",
         "link": "/guide/alerting"
+      },
+      {
+        "text": "Dashboard",
+        "link": "/guide/dashboardsecurite"
       },
       {
         "text": "Logs (Kibana)",
