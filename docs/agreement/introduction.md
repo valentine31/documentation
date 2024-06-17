@@ -15,7 +15,7 @@ Avec l’adoption de la doctrine « Cloud au centre », le Gouvernement Françai
 
 L'offre *interministérielle* Cloud π Native, offre les services d'une plateforme *DevSecOps* complète afin de suivre le cycle de vie complet de son projet.
 
-Vous trouvez le détail de cette offre [ici](https://cloud-pi-native.fr/platform/introduction.html)
+Vous trouverez le détail de cette offre [ici](https://cloud-pi-native.fr/platform/introduction.html)
 
 Le cadre interministériel d'utilisaton de l'offre est disponible à l'emplacement suivant : <https://github.com/cloud-pi-native/cct-cloud-native>
 
